@@ -1,0 +1,9 @@
+[package]
+name = "build-syscall"
+version = "0.0.1"
+edition = "2024"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
