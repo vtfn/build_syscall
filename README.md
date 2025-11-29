@@ -1,7 +1,7 @@
 # build_syscall
 Simple library that resolves Windows syscall numbers at compile time to create inlined zero overhead wrappers you can call directly. Because the syscall numbers are fetched at compilation, the generated binary is tied to the compilee's Windows version.
 
-Currently supports up to 4 arguments. Only supports x86_64.
+Only supports x86_64.
 
 # How to use
 ```rust
